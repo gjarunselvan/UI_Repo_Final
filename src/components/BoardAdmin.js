@@ -107,13 +107,13 @@ const BoardAdmin = () => {
 
   const iframeStyle = {
     width: "100%",
-    height: "60vh",
+    height: "1200px",
     border: "none",
   };
 
   return (
-    <div className="container mt-5">
-      <div className="jumbotron">
+    <div className="">
+      <div className="">
         <h3>{content}</h3>
       </div>
     </div>

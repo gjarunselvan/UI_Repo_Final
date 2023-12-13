@@ -39,7 +39,7 @@ const Home = () => {
           title="Flipkart"
           src={Capstone}
           width="100%"
-          height="100%"
+          height="1850px"
           allowFullScreen
           frameBorder="0"
         />
@@ -50,7 +50,7 @@ const Home = () => {
   }, [loggedIn, userCookie1, userName, userEmail]);
 
   return (
-    <div className="container" style={{ height: '100vh', width: '100vw', overflow: 'hidden' }}>
+    <div className="" >
       <header className="">
         {/* Add header content if needed */}
       </header>

@@ -160,19 +160,23 @@ const App = () => {
 
       <div className="container mt-3">
         <Routes>
-          <Route exact path={"/"} element={<Home />} />
-          <Route exact path={"/home"} element={<Home />} />
           <Route exact path="/login" element={<Login />} />
           <Route exact path="/register" element={<Register />} />
           <Route exact path="/profile" element={<Profile />} />
           <Route exact path="/wishlist" element={<Wishlist />} />
-          <Route exact path="/cart" element={<Cart />} />
           <Route path="/user" element={<BoardUser />} />
           <Route path="/mod" element={<BoardModerator />} />
           <Route path="/admin" element={<BoardAdmin />} />
           <Route path="/forgotPassword" element={<ForgotPassword />} />
           <Route path="/resetPassword" element={<ResetPassword />} />
           <Route path="/EmailVerify" element={<ValidateLink />} />
+        </Routes>
+      </div>
+      <div >
+        <Routes>
+        <Route exact path={"/"} element={<Home />} />
+        <Route exact path={"/home"} element={<Home />} />
+        <Route exact path="/cart" element={<Cart />} />
         </Routes>
       </div>
       <div className="App">

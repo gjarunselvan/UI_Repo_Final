@@ -13,7 +13,7 @@ const Home = () => {
         title="Capstone"
         src={Capstone}
         width="100%"
-        height="100%"
+        height="1350px"
         allowFullScreen
         frameBorder="0"
       />
@@ -21,7 +21,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="container" style={{ height: '100vh', width: '100vw', overflow: 'hidden' }}>
+    <div className="">
       <header className=""></header>
       {content}
     </div>
